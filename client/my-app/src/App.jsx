@@ -1,12 +1,12 @@
 import React from "react";
+import Header from "./components/Header";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
     return (
-        <div className="App">
-            <header className="App-header">
-                <p>Edit and save to reload.</p>
-                <a>Learn React</a>
-            </header>
+        <div>
+            <Header />
+            <h1>Hello World</h1>
         </div>
     );
 }
