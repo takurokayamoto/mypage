@@ -1,15 +1,117 @@
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    background-color: black;
+    background-color: black !important;
+    font-family: "Hind Siliguri", sans-serif;
+}
+h1 {
+    font-family: "Hind", sans-serif;
 }
 
-code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+.nav-bg-color {
+    background-color: #5ea6e9;
 }
 
-.navbar-background {
-    background-color: black;
-    color: black;
+.nav-icon-color {
+    color: white;
+}
+
+.nav-position {
+    position: fixed;
+}
+
+.navIcon {
+    font-size: 1.8rem;
+}
+
+.btn-header {
+    width: 3.5rem;
+    height: 3.5rem;
+    border: 0;
+    border-radius: 50%;
+}
+
+div.btn-header {
+    position: fixed;
+    right: 2.5rem;
+    top: 2rem;
+}
+
+.navList {
+    color: white;
+    list-style-type: none;
+    margin-left: 13rem;
+    margin-top: 1.2rem;
+    font-size: 2.5rem;
+}
+
+.nav-li {
+    font-size: 2rem;
+    padding: 1.1rem 0;
+}
+
+.nav-a {
+    color: white;
+    font-family: "Hind Siliguri", sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    background: linear-gradient(currentColor, currentColor) bottom / 0 0.1em no-repeat;
+    transition: 0.6s background-size;
+}
+
+.nav-a:hover {
+    color: #f4f9ff;
+    text-decoration: none;
+    background-size: 100% 0.1em;
+}
+
+.listWrap {
+    padding: 1rem;
+    right: 0;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+.btn-header-expand {
+    transform: scaleX(-1);
+    right: 2.5rem;
+    top: 2rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    border: 0;
+}
+
+.expandMenu {
+    z-index: 9999999999;
+    right: 0rem;
+    top: 0rem;
+    width: 35rem;
+    height: 35rem;
+    -moz-border-bottom-left-radius: 500px;
+    border-bottom-left-radius: 500px;
+    transition: opacity 0.3s 0.3s;
+}
+
+.show-menu .menu-wrap {
+    width: 500px;
+    height: 500px;
+    -moz-border-bottom-left-radius: 500px;
+    border-bottom-left-radius: 500px;
+    -webkit-animation: anim-jelly 0.8s linear forwards;
+    animation: anim-jelly 0.8s linear forwards;
+}
+
+.menu-wrap {
+    position: fixed;
+
+    -webkit-transition: width 0.3s, height 0.3s;
+    transition: width 0.3s, height 0.3s;
+    width: 0;
+    height: 0;
+    font-size: 1.5em;
+    top: 0px;
+    right: 0px;
+    -webkit-transform-origin: 100% 0%;
+    transform-origin: 100% 0%;
+    -moz-border-bottom-left-radius: 500px;
+    border-bottom-left-radius: 500px;
 }

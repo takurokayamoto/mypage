@@ -1,37 +1,25 @@
 import React from "react";
+import Fade from "@material-ui/core/Fade";
 
-function ExpandHeader() {
+function ExpandHeader(props) {
+
+
     return (
-        <div class="navbar-background collapse show" id="navbarHeader">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-8 col-md-7 py-4">
-                        <h4 class="text-white">About</h4>
-                        <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
-                    </div>
-                    <div class="col-sm-4 offset-md-1 py-4">
-                        <h4 class="text-white">Contact</h4>
-                        <ul class="list-unstyled">
-                            <li>
-                                <a href="#" class="text-white">
-                                    Follow on Twitter
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="text-white">
-                                    Like on Facebook
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="text-white">
-                                    Email me
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+        <Fade in={true} timeout={{ enter: 200 }}>
+            <div className="expandMenu nav-bg-color nav-position">
+                <div className="listWrap">
+                    <button className="btn-header-expand nav-bg-color nav-position" onClick={props.navIconClick}>
+                        <i className="fas fa-angle-double-left navIcon nav-icon-color"></i>
+                    </button>
+                    <ul className="navList">
+                        <li className="nav-li"><a className="nav-a" href="/">Home</a></li>
+                        <li className="nav-li"><a className="nav-a" href="/about">About</a></li>
+                        <li className="nav-li"><a className="nav-a" href="/work">Work</a></li>
+                        <li className="nav-li"><a className="nav-a" href="/contact">Contact</a></li>
+                    </ul>
                 </div>
             </div>
-        </div>
+        </Fade>
     );
 }
 

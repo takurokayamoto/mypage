@@ -1,21 +1,19 @@
 import React from "react";
 import ExpandHeader from "./ExpandHeader";
-import Button from "react-bootstrap/Button";
+import DefaultHeader from "./DefaultHeader";
 
 function Header() {
+    const [navClick, setNavClick] = React.useState(false);
+
+    function navIconClick() {
+        navClick ? setNavClick(false) : setNavClick(true);
+    }
+
     return (
         <header>
-            <ExpandHeader />
-            <div class="navbar navbar-dark shadow-sm navbar-background">
-                <div class="container d-flex justify-content-between">
-                    <a href="#" class="navbar-brand d-flex align-items-center">
-                        <strong>Takuro Kayamoto</strong>
-                    </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="true" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                </div>
-            </div>
+            {navClick ? <ExpandHeader navIconClick={navIconClick} /> : null}
+
+            <DefaultHeader navIconClick={navIconClick} />
         </header>
     );
 }
