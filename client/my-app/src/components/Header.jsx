@@ -12,7 +12,6 @@ function Header() {
     return (
         <header>
             {navClick ? <ExpandHeader navIconClick={navIconClick} /> : null}
-
             <DefaultHeader navIconClick={navIconClick} />
         </header>
     );
