@@ -241,6 +241,15 @@ div.btn-header {
     top: 50%;
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
+    text-shadow: 
+    -0.0075em 0.0075em 0 #02162c, 
+    0.005em 0.005em 0 #306aa0, 
+    0.01em 0.01em 0 #3771a7, 
+    0.015em 0.015em #2a5b88, 
+    0.02em 0.02em 0 #224a6e, 
+    0.025em 0.025em 0 #1a4063, 
+    0.03em 0.03em 0 #17395a, 
+    0.035em 0.035em 0 #163552;
 }
 
 .title {
@@ -278,13 +287,27 @@ div.btn-header {
     animation: jump 3s infinite;
 }
 @keyframes jump {
-    0% { transform: translate(-50%, 0%) scale(1.25, 0.75); }
-    50% { transform: translate(-50%, -90%) scale(1, 1); }
-    55% { transform: translate(-50%, -90%) rotate(15deg); }
-    60% { transform: translate(-50%, -90%) rotate(-15deg); }
-    65% { transform: translate(-50%, -90%) rotate(15deg); }
-    70% { transform: translate(-50%, -90%) rotate(-15deg); }
-    100% { transform: translate(-50%, 0%) scale(1.25, 0.75); }
+    0% {
+        transform: translate(-50%, 0%) scale(1.25, 0.75);
+    }
+    50% {
+        transform: translate(-50%, -90%) scale(1, 1);
+    }
+    55% {
+        transform: translate(-50%, -90%) rotate(15deg);
+    }
+    60% {
+        transform: translate(-50%, -90%) rotate(-15deg);
+    }
+    65% {
+        transform: translate(-50%, -90%) rotate(15deg);
+    }
+    70% {
+        transform: translate(-50%, -90%) rotate(-15deg);
+    }
+    100% {
+        transform: translate(-50%, 0%) scale(1.25, 0.75);
+    }
 }
 
 /* --------------------------------------------------------------- */
@@ -307,4 +330,8 @@ div.btn-header {
 }
 .whiteTitle {
     color: white;
+}
+
+.iphoneApp {
+    width: 15vw;
 }
