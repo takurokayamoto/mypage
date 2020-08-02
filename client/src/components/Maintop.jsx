@@ -1,24 +1,23 @@
 import React from "react";
 import iPhoneImg from "../source/titleIPhone.svg";
 import video from "../source/homeVideo.mp4";
-import KeyboardArrowDownIcon from "@material-ui/icons/KeyboardArrowDown";
 
 function Maintop() {
     return (
         <div>
-            <div className="container h-100 d-flex justify-content-center titleDiv">
+            <div className="titleDiv">
                 <h1 className="mainTitle">
-                    <span className="design isplay-3 title">Design</span>
-                    <span className="matters isplay-3 title">Matters</span>
+                    <span className="title">Design</span>
+                    <span className="title">Matters</span>
                 </h1>
-            </div>
-            <div className="container h-100 d-flex justify-content-center">
-                <img src={iPhoneImg} className="display-3 iPhoneImg titleAssets" alt="iPhone"></img>
-                <video className="display-3 topVideo titleAssets" width="320" height="240" autoPlay="autoplay" loop>
-                    <source src={video} type="video/mp4" />
-                </video>
+                <div className="mainAsset">
+                    <img src={iPhoneImg} className="iPhoneImg" alt="iPhone"></img>
+                    <video className="topVideo" width="320" height="240" autoPlay="autoplay" loop muted>
+                        <source src={video} type="video/mp4" />
+                    </video>
+                </div>
                 <div>
-                <i class="fas fa-angle-double-down arrow"></i>
+                    <i className="fas fa-angle-double-down arrow"></i>
                 </div>
             </div>
         </div>
