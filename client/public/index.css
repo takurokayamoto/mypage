@@ -256,5 +256,32 @@ div.btn-header {
     width: 13rem;
 }
 
+.arrow {
+    position: relative;
+    top: -6rem;
+    display: flex;
+    font-size: 70px;
+    color: #d6d6d6;
+}
 
 /* --------------------------------------------------------------- */
+
+.secondPage {
+    position: relative;
+    margin: 5rem 7rem;
+}
+
+.secondTitle {
+    font-size: 4.7rem;
+    font-weight: bold;
+    font-family: "Hind", sans-serif;
+    letter-spacing: 0.02em;
+    line-height: 6.5rem;
+}
+
+.blueTitle {
+    color: #5ea6e9;
+}
+.whiteTitle {
+    color: white;
+}

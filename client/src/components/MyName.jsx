@@ -2,14 +2,19 @@ import React from "react";
 
 function Myname() {
     return (
-        <div>
-            <h1>
-                <span>Hi there. </span>
-                <span>I'm Tak,</span><br></br>
-                <span>a UI designer and</span><br></br>
-                <span>a web developer.</span><br></br>
+        <div className="secondPage">
+            <h1 className="secondTitle">
+                <span className="blueTitle">Hi there. </span>
+                <span className="whiteTitle">I'm Tak,</span><br></br>
+                <span className="whiteTitle">a UI designer and</span><br></br>
+                <span className="whiteTitle">a web developer.</span><br></br>
             </h1>
+            <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+            <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+            <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
         </div>
+
+        
     );
 }
 

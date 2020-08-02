@@ -18,8 +18,7 @@ function Maintop() {
                     <source src={video} type="video/mp4" />
                 </video>
                 <div>
-                    <KeyboardArrowDownIcon className="arrow" style={{ fontSize: 70, color: "#d6d6d6" }} />
-                    <KeyboardArrowDownIcon className="arrow" style={{ fontSize: 70, color: "#d6d6d6" }} />
+                <i class="fas fa-angle-double-down arrow"></i>
                 </div>
             </div>
         </div>
