@@ -174,14 +174,14 @@ h1 {
 }
 
 .btn-header:hover {
-    animation: outline 1s;
+    animation: outline 0.5s;
 }
 @keyframes outline {
     0% {
         border-color: #133f69;
     }
     100% {
-        border-color: #568fc5;
+        border-color: #5ea6e9;
     }
 }
 
@@ -260,7 +260,6 @@ h1 {
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
     text-shadow: -0.0075em 0.0075em 0 #02162c, 0.005em 0.005em 0 #306aa0, 0.01em 0.01em 0 #3771a7, 0.015em 0.015em #2a5b88, 0.02em 0.02em 0 #224a6e, 0.025em 0.025em 0 #1a4063, 0.03em 0.03em 0 #17395a, 0.035em 0.035em 0 #163552;
-
 }
 
 .title {
@@ -326,7 +325,7 @@ h1 {
 .secondPage {
     position: relative;
     height: 100vh;
-    margin: 5rem 10rem;
+    margin: 5rem 7rem;
     overflow: hidden;
     box-shadow: 0 10px 0 rgba(0, 0, 0, 0.24);
 }
@@ -344,7 +343,7 @@ h1 {
     z-index: 3;
 }
 
-.square{
+.square {
     position: absolute;
     top: -5rem;
     width: 100%;
@@ -352,7 +351,6 @@ h1 {
     background-color: black;
     z-index: 3;
 }
-
 
 .secondTitle {
     position: relative;
@@ -362,7 +360,6 @@ h1 {
     letter-spacing: 0.02em;
     line-height: 6.5rem;
     z-index: 4;
-
 }
 
 .blueTitle {
@@ -370,6 +367,16 @@ h1 {
 }
 .whiteTitle {
     color: white;
+}
+
+.contrainer {
+    margin: 0 5rem;
+}
+
+@media screen and (min-width: 1200px) {
+    .contrainer {
+        margin: 0 7rem;
+    }
 }
 
 .row1 {
@@ -395,5 +402,55 @@ h1 {
 }
 
 .iphoneApp {
-    width: 14vw;
+    width: 12.5rem;
+}
+
+/* --------------------------------------------------------------- */
+
+.thirdPage {
+    position: relative;
+    top: -5rem;
+    height: 100vh;
+    margin: 5rem 7rem;
+    overflow: hidden;
+}
+
+.third {
+    position: relative;
+    width: 100%; /*make image streatch*/
+    margin: -22% 0;
+    filter: grayscale(80%);
+    filter: opacity(0.6);
+}
+
+.thirdTitle {
+    position: relative;
+    font-family: "Hind", sans-serif;
+    font-weight: 900;
+    font-size: 7vw;
+    color: #5ea6e9;
+    margin-left: 10rem;
+    margin-top: 3rem;
+    z-index: 3;
+}
+
+.example_b {
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #5ea6e9;
+    padding: 20px;
+    border-radius: 50px;
+    display: block;
+    width: 10rem;
+    border: none;
+    transition: all 0.4s ease 0s;
+}
+
+.example_b:hover {
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 1);
+    box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    transition: all 0.4s ease 0s;
+    text-decoration: none;
 }
