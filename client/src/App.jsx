@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Maintop from "./components/Maintop";
 import Myname from "./components/MyName";
 import MiniContact from "./components/MiniContact";
+import Footer from "./components/Footer"
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
             <Maintop />
             <Myname />
             <MiniContact />
+            <Footer />
         </div>
     );
 }

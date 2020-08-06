@@ -9,14 +9,12 @@ function MiniContact() {
             <h1 className="thirdTitle">
                 Powerful<br></br>Design.
             </h1>
-            <h1>Takuro Kayamoto</h1>
-            <div class="button_cont" align="center">
-                <a class="example_b" href="/about" rel="nofollow noopener">
+            <h1 className="topName">Learn more about me</h1>
+            <div class="button_cont " align="center">
+                <a class="bottomBtn" href="/about" rel="nofollow noopener">
                     About
                 </a>
-            </div>
-            <div class="button_cont" align="center">
-                <a class="example_b" href="/contact" rel="nofollow noopener">
+                <a class="bottomBtn" href="/contact" rel="nofollow noopener">
                     Contact
                 </a>
             </div>
