@@ -3,6 +3,8 @@ import path from "path";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
+const __dirname = path.resolve();
+
 
 app.use(express.urlencoded({ extended: false }));
 app.use(express.static("public"));
