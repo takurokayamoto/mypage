@@ -9,7 +9,9 @@
     "install-client": "cd client && npm i",
     "heroku-postbuild": "npm run install-client && npm run build",
     "start": "node server.js",
-    "client": "cd client && npm start"
+    "client": "cd client && npm start",
+    "dev": "concurrently -n 'server,client' -c 'red,green'  \"nodemon server.js\" \"npm run client\""
+
 
   },
   "author": "Takuro Kayamoto",
