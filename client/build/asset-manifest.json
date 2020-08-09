@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.js": "/static/js/main.b086c2a3.chunk.js",
+    "main.js.map": "/static/js/main.b086c2a3.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.83c3e0c4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.83c3e0c4.js.map",
+    "static/js/2.582c38d3.chunk.js": "/static/js/2.582c38d3.chunk.js",
+    "static/js/2.582c38d3.chunk.js.map": "/static/js/2.582c38d3.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.0d294bf6ca99732f87af9943e2a446ed.js": "/precache-manifest.0d294bf6ca99732f87af9943e2a446ed.js",
+    "service-worker.js": "/service-worker.js",
+    "static/js/2.582c38d3.chunk.js.LICENSE.txt": "/static/js/2.582c38d3.chunk.js.LICENSE.txt",
+    "static/media/airticket.svg": "/static/media/airticket.91702ae1.svg",
+    "static/media/avatar.png": "/static/media/avatar.6f063afe.png",
+    "static/media/calclator.svg": "/static/media/calclator.5c14977a.svg",
+    "static/media/homeVideo.mp4": "/static/media/homeVideo.829af7aa.mp4",
+    "static/media/mappyMap.svg": "/static/media/mappyMap.c59c3f1c.svg",
+    "static/media/mappyTitle.svg": "/static/media/mappyTitle.3df30a1e.svg",
+    "static/media/sunglass.svg": "/static/media/sunglass.0a9c0f43.svg",
+    "static/media/third.jpg": "/static/media/third.6398d1dd.jpg",
+    "static/media/titleIPhone.svg": "/static/media/titleIPhone.5736fd3c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.83c3e0c4.js",
+    "static/js/2.582c38d3.chunk.js",
+    "static/js/main.b086c2a3.chunk.js"
+  ]
+}
