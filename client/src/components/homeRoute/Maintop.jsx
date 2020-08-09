@@ -1,6 +1,6 @@
 import React from "react";
-import iPhoneImg from "../source/titleIPhone.svg";
-import video from "../source/homeVideo.mp4";
+import iPhoneImg from "../../source/titleIPhone.svg";
+import video from "../../source/homeVideo.mp4";
 
 function Maintop() {
     return (

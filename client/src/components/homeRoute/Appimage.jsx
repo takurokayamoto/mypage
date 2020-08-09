@@ -1,10 +1,10 @@
 import React from "react"
 // import iphone from "../source/iphoneWithFrame.svg";
-import airTicket from "../source/airticket.svg";
-import calculator from "../source/calclator.svg";
-import sunglasses from "../source/sunglass.svg";
-import mappyTitle from "../source/mappyTitle.svg";
-import mappyMap from "../source/mappyMap.svg";
+import airTicket from "../../source/airticket.svg";
+import calculator from "../../source/calclator.svg";
+import sunglasses from "../../source/sunglass.svg";
+import mappyTitle from "../../source/mappyTitle.svg";
+import mappyMap from "../../source/mappyMap.svg";
 
 
 function AppImage() {

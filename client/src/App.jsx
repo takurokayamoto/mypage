@@ -1,18 +1,15 @@
 import React from "react";
-import Header from "./components/Header";
-import Maintop from "./components/Maintop";
-import Myname from "./components/MyName";
-import MiniContact from "./components/MiniContact";
-import Footer from "./components/Footer"
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Home from "./components/homeRoute/Home";
+import About from "./components/aboutRoute/About";
 
 function App() {
     return (
         <div>
-            <Header />
-            <Maintop />
-            <Myname />
-            <MiniContact />
-            <Footer />
+            <Router>
+                <Route exact path="/" component={Home} />
+                <Route exact path="/about" component={About} />
+            </Router>
         </div>
     );
 }

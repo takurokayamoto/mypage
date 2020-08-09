@@ -1,6 +1,6 @@
 import React from "react";
-import avatar from "../source/avatar.png";
-import third from "../source/third.jpg";
+// import avatar from "../../source/avatar.png";
+import third from "../../source/third.jpg";
 
 function MiniContact() {
     return (
@@ -10,11 +10,11 @@ function MiniContact() {
                 Powerful<br></br>Design.
             </h1>
             <h1 className="topName">Learn more about me</h1>
-            <div class="button_cont " align="center">
-                <a class="bottomBtn" href="/about" rel="nofollow noopener">
+            <div className="button_cont " align="center">
+                <a className="bottomBtn" href="/about" rel="nofollow noopener">
                     About
                 </a>
-                <a class="bottomBtn" href="/contact" rel="nofollow noopener">
+                <a className="bottomBtn" href="/contact" rel="nofollow noopener">
                     Contact
                 </a>
             </div>

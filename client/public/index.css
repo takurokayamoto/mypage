@@ -16,6 +16,10 @@ h1 {
 }
 
 /* --------------------------------------------------------------- */
+.load-end{
+    display: none !important;
+}
+
 .loader-wrapper {
     width: 100%;
     height: 100%;
