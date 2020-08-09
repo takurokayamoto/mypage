@@ -1,13 +1,13 @@
 import React from "react";
 import Header from "../homeRoute/Header";
 
-function About() {
+function Work() {
     return (
         <div>
             <Header />
-            <h1 style={{color:"white"}}>About Page</h1>
+            <h1 style={{color:"white"}}>Work Page</h1>
         </div>
     );
 }
 
-export default About;
+export default Work;

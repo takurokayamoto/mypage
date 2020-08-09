@@ -6,6 +6,9 @@ body {
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
 }
+.body {
+    overflow-y: scroll; /* Add the ability to scroll */
+}
 
 body::-webkit-scrollbar {
     display: none;
@@ -16,8 +19,8 @@ h1 {
 }
 
 /* --------------------------------------------------------------- */
-.load-end{
-    display: none !important;
+.load-end {
+    display: none;
 }
 
 .loader-wrapper {
