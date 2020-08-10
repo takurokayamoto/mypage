@@ -5,7 +5,7 @@ function Work() {
     return (
         <div>
             <Header />
-            <h1 style={{color:"white"}}>Work Page</h1>
+            <h1 style={{ color: "white" }}>Work Page</h1>
         </div>
     );
 }

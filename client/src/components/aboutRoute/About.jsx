@@ -5,7 +5,7 @@ function About() {
     return (
         <div>
             <Header />
-            <h1 style={{color:"white"}}>About Page</h1>
+            <h1 style={{ color: "white" }}>About Page</h1>
         </div>
     );
 }
