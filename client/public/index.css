@@ -492,6 +492,11 @@ h1 {
 }
 
 /* --------------------------------------------------------------- */
+/* --------------------------------------------------------------- */
+/* --------------------------------------------------------------- */
+/* --------------------------------------------------------------- */
+/* --------------------------------------------------------------- */
+/* --------------------------------------------------------------- */
 
 .aboutDiv {
     position: relative;
@@ -553,4 +558,83 @@ h1 {
     line-height: 2.4rem;
     font-weight: lighter;
     letter-spacing: 0.04rem;
+}
+/* --------------------------------------------------------------- */
+.aboutSecond {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+}
+
+.AboutTitle {
+    text-align: center;
+}
+
+.aboutNumber {
+    position: absolute;
+    font-family: "Hind", sans-serif;
+    font-weight: 900;
+    font-size: 23vh;
+    letter-spacing: 0.7rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    color: #f8f8f8;
+    z-index: 0;
+}
+
+.aboutP {
+    position: relative;
+    font-family: "Hind", sans-serif;
+    font-weight: 900;
+    font-size: 7vh;
+    padding-top: 8vh;
+}
+
+.aboutLine {
+    background-color: #5ea6e9;
+    width: 3rem;
+    height: 0.5rem;
+    margin: 3rem auto;
+}
+/* --------------------------------------------------------------- */
+
+.AboutEducation {
+    margin: 4rem 14vw;
+    display: flex;
+    align-items: center;
+}
+
+.uniLogo {
+    width: 20vh;
+    margin-right: 10vw;
+}
+
+.uniText {
+    margin-top: 2%;
+}
+
+.uniName {
+    font-family: "Hind", sans-serif;
+    font-size: 2.8vw;
+    font-weight: 900;
+    letter-spacing: 0.04rem;
+    line-height: 2rem;
+}
+
+.uniDegree {
+    font-family: "Hind", sans-serif;
+    font-size: 1.8vw;
+}
+
+.degreeName {
+    margin: 0 4% 0 4%;
+}
+
+.uniYear {
+    color: #c9c9c9;
+    font-size: 1.5vw;
+    font-weight: lighter;
 }
