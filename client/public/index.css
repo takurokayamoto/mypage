@@ -1,5 +1,5 @@
 body {
-    background-color: black !important;
+    background-color: black;
     font-family: "Hind Siliguri", sans-serif;
     overflow-x: hidden; /* Hide horizontal scrollbar */
     overflow-y: hidden; /* Add the ability to scroll */
@@ -489,4 +489,68 @@ h1 {
     color: #3e3e3e;
     text-align: center;
     font-size: 1rem;
+}
+
+/* --------------------------------------------------------------- */
+
+.aboutDiv {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.imgOffice {
+    position: absolute;
+    width: 100vw;
+    top: -20%;
+    filter: grayscale(80%);
+    filter: opacity(0.4);
+}
+
+.myTitleName {
+    color: #5ea6e9;
+    font-size: 2.2rem;
+    font-weight: 600;
+    letter-spacing: 0.04rem;
+    font-family: "Hind", sans-serif;
+    text-align: center;
+    position: relative;
+    top: 5%;
+}
+
+.leftText {
+    position: relative;
+    z-index: 10;
+    width: 50%;
+    top: 20%;
+    margin-left: 10%;
+}
+.aboutTitle {
+    color: white;
+    font-family: "Hind", sans-serif;
+    font-size: 4.5rem;
+    font-weight: 900;
+    letter-spacing: 0.04rem;
+    line-height: 6rem;
+}
+
+.aboutTitle span {
+    display: block;
+}
+
+.line {
+    background-color: #5ea6e9;
+    width: 6rem;
+    height: 0.5rem;
+    margin: 3rem 0;
+}
+
+.aboutText {
+    font-family: "Hind Siliguri", sans-serif;
+    color: white;
+    font-size: 1.3rem;
+    line-height: 2.4rem;
+    font-weight: lighter;
+    letter-spacing: 0.04rem;
 }
