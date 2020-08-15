@@ -4,6 +4,7 @@ import Footer from "../homeRoute/Footer";
 import AboutFirst from "./AboutFirst";
 import Education from "./AboutSecond";
 import Experience from "./AboutThird";
+import Skills from "./AboutForth";
 import Fade from "@material-ui/core/Fade";
 
 function About() {
@@ -19,6 +20,7 @@ function About() {
                 <AboutFirst />
                 <Education />
                 <Experience />
+                <Skills />
                 <Footer />
             </div>
         </Fade>
