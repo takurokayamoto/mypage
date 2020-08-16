@@ -10,7 +10,7 @@ function MiniContact() {
                 Powerful<br></br>Design.
             </h1>
             <h1 className="topName">Learn more about me</h1>
-            <div className="button_cont " align="center">
+            <div className="button_cont" align="center">
                 <a className="bottomBtn" href="/about" rel="nofollow noopener">
                     About
                 </a>

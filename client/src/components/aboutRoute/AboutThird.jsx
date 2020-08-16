@@ -12,14 +12,14 @@ function Experience() {
         year1: "(Apr 2020 - Current)",
         title2: "Assistant Account Executive",
         year2: "(Jan 2019 - Mar 2020)",
-        achievement: ["Accomplished collaborative project with Mizuho bank and analyised big data with Python", "Accomplished collaborative project with Mizuho bank and analyised big data with Python", "Accomplished collaborative project with Mizuho bank and analyised big data with Python", "Accomplished collaborative project with Mizuho bank and analyised big data with Python", "Accomplished collaborative project with Mizuho bank and analyised big data with Python"],
+        achievement: ["Made more than a few strategic sales proposals that help the sales team to win campaigns", "Provided client and opportunity related insights to keep the sales team informed", "Achieved $140K in sales revenue when I was an Intern.", "Helped the Marketing team with Covid-19 reports, sales collaterals, etc."],
     };
     const md = {
         img: mdLogo,
         company: "Market Drive, Inc.",
         title1: "Client Solutions Associate",
         year1: "(Apr 2020 - Current)",
-        achievement: ["Accomplished collaborative project with Mizuho bank and analyised big data with Python", "Accomplished collaborative project with Mizuho bank and analyised big data with Python", "Accomplished collaborative project with Mizuho bank and analyised big data with Python"],
+        achievement: ["Managed a YouTube account with 110K+ subscribers", "Excelled in this high-pressure environment while working with many other team members to create a high-quality final cut", "Assembled and analysed traffic source and audience data, developed quarterly marketing reports"],
     };
 
     return (
