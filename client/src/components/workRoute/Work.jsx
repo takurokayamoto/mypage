@@ -1,11 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "../homeRoute/Header";
+import Footer from "../homeRoute/Footer";
+import Clock from "./Clock"
 
 function Work() {
+    useEffect(() => {
+        setTimeout(() => {
+            document.body.classList = "body";
+        }, 0.01);
+    }, []);
+
     return (
-        <div>
+        <div className="workPage">
             <Header />
-            <h1 style={{ color: "white" }}>Work Page</h1>
+            <Clock />
+            <Footer />
         </div>
     );
 }
