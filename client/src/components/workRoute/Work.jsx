@@ -13,6 +13,7 @@ function Work() {
     return (
         <div className="workPage">
             <Header />
+            <h1 className="coming">Coming Soon . . .</h1>
             <Clock />
             <Footer />
         </div>

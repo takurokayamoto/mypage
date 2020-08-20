@@ -31,11 +31,13 @@ function Clock() {
     }
 
     return (
-        <div className="outer">
-            <div className="inner">
-                <div className="most-inner">
-                    <span className={state.time === "00:00:00" ? "time blink" : "time"}> {state.time}</span>
-                    <span className="amPm">{state.amPm}</span>
+        <div className="clock">
+            <div className="outer">
+                <div className="inner">
+                    <div className="most-inner">
+                        <span className={state.time === "00:00:00" ? "time blink" : "time"}> {state.time}</span>
+                        <span className="amPm">{state.amPm}</span>
+                    </div>
                 </div>
             </div>
         </div>

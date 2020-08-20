@@ -751,7 +751,22 @@ path {
     width: 100%;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,900);
+.coming {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 10%;
+    color: white;
+    font-family: "Hind", sans-serif;
+
+}
+
+.clock {
+    position: relative;
+    margin-top: 7%;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400, 700, 900);
 
 .outer {
     position: relative;
@@ -760,10 +775,10 @@ path {
     margin-left: -300px;
     height: 600px;
     width: 600px;
-    border: 1px solid rgba(225, 119, 3, 0.9);
+    border: 1px solid rgba(114, 219, 238, 0.808);
     border-radius: 50%;
-    background: linear-gradient(to bottom, rgba(253, 155, 18, 0.8) 0%, rgba(255, 42, 4, 0.8) 73%, rgba(253, 125, 45, 0.8) 100%);
-    box-shadow: 0px 0px 31px 2px rgba(255, 119, 3, 0.9), inset 0px 0px 31px 2px rgba(255, 119, 3, 0.9);
+    background: linear-gradient(to bottom, rgba(22, 150, 235, 0.8) 0%, rgba(2, 141, 255, 0.8) 73%, rgba(73, 152, 243, 0.8) 100%);
+    box-shadow: 0px 0px 31px 2px rgba(28, 158, 245, 0.9), inset 0px 0px 31px 2px rgb(3, 154, 255, 0.9);
 }
 
 .outer::after {
@@ -774,32 +789,32 @@ path {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    box-shadow: 0px 0px 100px 2px rgba(255, 119, 3, 1), inset 0px 0px 100px 2px rgba(255, 119, 3, 1);
+    box-shadow: 0px 0px 100px 2px rgb(3, 154, 255), inset 0px 0px 100px 2px rgb(3, 154, 255);
     animation: shadowFade 4s infinite ease-in;
 }
 
 .inner {
     height: 350px;
     width: 500px;
-    border: 1px solid rgba(225, 119, 3, 0.9);
+    border: 1px solid rgb(3, 154, 255, 0.9);
     border-radius: 50%;
     margin-top: 100px;
     margin-left: 50px;
     margin-right: 50px;
-    background: linear-gradient(to bottom, rgba(253, 125, 45, 0.3) 0%, rgba(255, 42, 4, 0.3) 73%, rgba(253, 125, 45, 0.3) 100%);
-    box-shadow: 0px 0px 31px 2px rgba(255, 119, 3, 0.9), inset 0px 0px 31px 2px rgba(255, 119, 3, 0.9);
+    background: linear-gradient(to bottom, rgba(85, 156, 238, 0.3) 0%, rgba(55, 121, 221, 0.3) 73%, rgba(45, 94, 253, 0.3) 100%);
+    box-shadow: 0px 0px 31px 2px rgb(3, 154, 255, 0.9), inset 0px 0px 31px 2px rgb(3, 154, 255, 0.9);
 }
 
 .most-inner {
     text-align: center;
     height: 175px;
     width: 400px;
-    border: 1px solid rgba(225, 119, 3, 1);
+    border: 1px solid rgb(47, 189, 255);
     border-radius: 125px;
     margin-top: 90px;
     margin-left: 50px;
     margin-right: 50px;
-    box-shadow: 0px 0px 31px 2px rgba(255, 119, 3, 0.9), inset 0px 0px 31px 2px rgba(255, 119, 3, 0.9);
+    box-shadow: 0px 0px 31px 2px rgb(3, 154, 255, 0.9), inset 0px 0px 31px 2px rgb(3, 154, 255, 0.9);
     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 7px #fff, 0 0 20px #88dfff, 0 0 35px #68ffc8, 0 0 40px #68ffc8, 0 0 50px #68ffc8, 0 0 75px #68ffc8;
     background: 
   /* On "top" */ repeating-linear-gradient(45deg, transparent, transparent 4px, #171717 4px, black 8px), /* on "bottom" */ linear-gradient(to bottom, #171717, black);
